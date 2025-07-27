@@ -1,92 +1,56 @@
-# 🐧 Linux, Bash & Containerization – Shared
+# 🐧 Linux, Bash, and Container Projects – JD
 
-👥 Shared with ALI CS Club
+👤 JD
 
 ---
 
-This repository is for **collaborative learning and experimentation** with:
-
-- 🐚 **Linux command-line tools**
-- 🔧 **Bash scripting**
-- 📦 **Docker containerization**
-- ☸️ **Kubernetes deployments**
-
-It’s a shared space for ALI CS Club members to contribute practical scripts, container setups, orchestration configs, and technical notes.
+This is my personal collection of Linux, Bash scripting, and containerization projects. 
 
 ---
 
 ## 📁 Project Structure
 
 ```
-linux-bash-container-shared/
+linux-bash-container-jd/
 ├── bash-scripts/              # Custom Bash utilities and automation tools
 │   └── hello_world.sh
 ├── docker-images/             # Dockerfiles and image setups
 │   ├── ubuntu-dev/
 │   │   ├── Dockerfile
-│   │   └── README.md          # Documents setup for dev container for general scripting in Ubuntu
+│   │   └── README.md          # Describes the Ubuntu-based developer image
 │   ├── kali-dev/
 │   │   ├── Dockerfile
-│   │   └── README.md          # Documents kali-dev container, prepped for pen testing, reverse engineering, and cybersecurity labs using Kali Linux toolsets.
+│   │   └── README.md          # Describes the Kali-based security testing container
 ├── k8s-deployments/           # Kubernetes YAML manifests and Helm charts
 │   └── nginx-deployment.yaml
 ├── notes/                     # Markdown docs and quick-reference commands
 │   └── linux-permissions.md
 └── README.md                  # You're reading it!
-
 ```
 
 ---
 
-## 🚀 How to Use
+## 🔍 Purpose
 
-### Bash Scripts
+This repo helps me:
 
-Run directly from terminal:
-
-```bash
-bash bash-scripts/your_script.sh
-```
-
-### Docker Images
-
-Build and run a container:
-
-```bash
-cd docker-images/ubuntu-dev
-docker build -t ali-dev .
-docker run -it ali-dev
-```
-
-### Kubernetes Deployments
-
-Apply a deployment (requires `kubectl` and access to a cluster):
-
-```bash
-kubectl apply -f k8s-deployments/nginx-deployment.yaml
-```
+- Build a personal toolkit of Bash scripts and utilities  
+- Maintain working Docker environments for development and security testing  
+- Experiment with Kubernetes deployments and cloud-native practices  
+- Track and document useful Linux command references and lessons learned  
 
 ---
 
-## 🤝 Contribution Guidelines
+## 🛠️ Tools Used
 
-- Add your work to the correct folder (`bash-scripts/`, `docker-images/`, etc.)
-- Use descriptive filenames (e.g., `backup_script.sh`, `nginx-deployment.yaml`)
-- Add clear comments and include a header comment block in scripts when possible
-- If working **independently**, please **fork** or create a **branch** and open a **pull request**
-- If collaborating **live with a partner**, only **one person should push changes at a time** to avoid merge issues
-
----
-
-## 🎯 Purpose
-
-This repo provides hands-on practice with:
-
-- Writing and sharing Bash scripts
-- Building and running custom Docker containers
-- Deploying apps to Kubernetes clusters
-- Using Git/GitHub to collaborate like pros
+- 🐚 Bash
+- 🐳 Docker
+- ☸️ Kubernetes
+- 🐧 Linux (Ubuntu & Kali)
 
 ---
 
-Happy hacking! 🐧💻⚙️
+## 🧠 Notes to Self
+
+This repo is for my own workflow and reference. 
+
